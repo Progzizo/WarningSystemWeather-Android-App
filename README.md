@@ -3,13 +3,8 @@ Android App (using Jsoup library to parser html web site) provide weather warnin
 
 
 ## Version
-versionCode 9
-versionName "3.1"
-
-
-## Screenshots
-![Screenshots1](../master/img/img1.png "Screenshots1")
-![Screenshots2](../master/img/img2.png "Screenshots2")
+* versionCode 9
+* versionName "3.1"
 
 
 ## Download Live App
@@ -18,17 +13,16 @@ versionName "3.1"
       height="80">](https://play.google.com/store/apps/details?id=com.droidprogramming.automatedearlywarningsystem&hl=en)
 
 
+## Screenshots
+![Screenshots1](../master/img/img1.png "Screenshots1")
+![Screenshots2](../master/img/img2.png "Screenshots2")
+
+
 ## To Do:
 - [ ] Making Jsoup fetch data automatically, not basied on fixed indes values.
 
 
-## More Info
-https://jsoup.org/
-https://www.pme.gov.sa/en/alert/pages/default.aspx
-
-
 ##LICENSE
-Do What U Want!
 ```
 MIT License
 
