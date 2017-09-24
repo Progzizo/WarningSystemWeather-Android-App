@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/listViewSpace"
+    >
+
+
+    <ProgressBar
+        style="?android:attr/progressBarStyleLarge"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/progressBar2"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"/>
+
+
+    <ScrollView
+        android:paddingTop="5dp"
+        android:background="@drawable/bg_list_items"
+        android:paddingEnd="8dp"
+        android:paddingStart="8dp"
+        android:visibility="visible"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:id="@+id/details_container_scrollable_view"
+        >
+
+        <LinearLayout
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:visibility="visible"
+            android:id="@+id/details_container_data"
+            >
+
+
+
+            <TextView
+                android:textColor="@color/headerColor"
+                android:textSize="@dimen/header"
+                android:textStyle="bold"
+                android:layout_gravity="start"
+                android:layout_width="match_parent"
+
+                android:id="@+id/RegionandLocations"
+                android:layout_height="wrap_content"
+                android:text="الشرقية"/>
+
+
+            <TextView
+                android:textColor="@color/subHeaderColor"
+                android:textSize="@dimen/sub_header"
+                android:layout_gravity="start"
+
+                android:id="@+id/caseLocations"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="الاحساء الخبر الدمام والاجزاء المجاورة لها وايضاً الخليج العربي"
+                />
+
+            <View
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:layout_width="match_parent"
+                android:layout_gravity="center_horizontal"
+                android:layout_height="2dip"
+                android:background="@color/lineColor"
+                />
+
+            <TextView
+                android:textColor="@color/headerColor"
+                android:textSize="@dimen/header"
+                android:textStyle="bold"
+                android:layout_gravity="start"
+                android:id="@+id/caseTextView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                android:text="رياح نشطة واتربة مثارة"/>
+
+
+            <TextView
+                android:textColor="@color/subHeaderColor"
+                android:textSize="@dimen/sub_header"
+                android:layout_gravity="end"
+
+                android:id="@+id/caseDescriptionTextView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="نشاقل من ٢ كلم خاصه على ال إستمرار هطول أمطار رعدية متوسطةتحد م كل عام وانتم بخير وانا بخيرللم قية .
+طرق السريعه والمناطق المفتوحه"
+                />
+
+            <View
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:layout_width="match_parent"
+                android:layout_gravity="center_horizontal"
+                android:layout_height="2dip"
+                android:background="@color/lineColor"
+                />
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                >
+
+                <TextView
+                    android:textColor="@color/headerColor"
+                    android:textSize="@dimen/header"
+                    android:textStyle="bold"
+                    android:layout_gravity="start"
+                    android:layout_width="match_parent"
+
+                    android:id="@+id/textView18"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="5dp"
+                    android:text="بداية الحالة"/>
+
+                <TextView
+                    android:textColor="@color/yellowBright"
+                    android:textStyle="bold"
+                    android:textSize="@dimen/timing"
+                    android:layout_gravity="start"
+                    android:layout_width="match_parent"
+                    android:id="@+id/caseBeginningTextView"
+                    android:layout_height="wrap_content"
+                    android:text="الساعه 13:00 الثلاثاء الموافق: 6/09/2016"
+
+                    />
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:orientation="vertical"
+                >
+
+                <TextView
+                    android:textColor="@color/headerColor"
+                    android:textSize="@dimen/header"
+                    android:textStyle="bold"
+                    android:layout_gravity="start"
+                    android:layout_width="match_parent"
+                    android:id="@+id/textView25"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="5dp"
+                    android:text="نهاية الحالة"/>
+
+                <TextView
+                    android:textColor="@color/yellowBright"
+                    android:textStyle="bold"
+                    android:textSize="@dimen/timing"
+                    android:layout_gravity="start"
+                    android:layout_width="match_parent"
+                    android:id="@+id/caseEndingTextView"
+                    android:layout_height="wrap_content"
+                    android:text="الساعه 13:00 الثلاثاء الموافق: 6/09/2016" />
+
+            </LinearLayout>
+
+            <View
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:layout_width="match_parent"
+                android:layout_gravity="center_horizontal"
+                android:layout_height="2dip"
+                android:background="@color/lineColor"
+                />
+
+            <Button
+                android:visibility="gone"
+                android:layout_marginTop="10dp"
+                android:layout_marginStart="30dp"
+                android:layout_marginEnd="30dp"
+                android:id="@+id/shareButton"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="نبه اصدقائك"
+                android:textStyle="bold"
+                android:textSize="20sp"
+                android:textColor="@color/listViewSpace"
+                android:background="@color/headerColor"
+                android:layout_gravity="center_vertical"
+                />
+
+        </LinearLayout>
+
+
+    </ScrollView>
+
+</RelativeLayout>

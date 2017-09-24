@@ -13,13 +13,22 @@ Android App (using Jsoup library to parser html web site) provide weather warnin
       height="80">](https://play.google.com/store/apps/details?id=com.droidprogramming.automatedearlywarningsystem&hl=en)
 
 
-## Screenshots
-![Screenshots1](../master/img/img1.png "Screenshots1")
-![Screenshots2](../master/img/img2.png "Screenshots2")
+## Notes
+* This was my first Android App that I build (code smell), the purpose was only learning and educate my self.
+* Used external Jsoup Library to fetch html.
+* Admob Implemented with demo ads.
+* No time to maintenance this repository if error occur.
+* ListAsync.Java where the error might accur, each time the website that Jsoup fetching is change its structure.
+* If the app not working try to Clean + Rebuild + Make Project when you first clone this repository.
 
 
 ## To Do:
-- [ ] Making Jsoup fetch data automatically, not basied on fixed indes values.
+- [ ] Making Jsoup fetch data dynamic, not basied on fixed index values, so no errors occur in the future.
+
+
+## Screenshots
+![Screenshots1](../master/img/img1.png "Screenshots1")
+![Screenshots2](../master/img/img2.png "Screenshots2")
 
 
 ## LICENSE

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:tools="http://schemas.android.com/tools"
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="5dp"
+
+
+                android:background="@drawable/bg_list_items">
+
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:baselineAligned="false"
+        android:gravity="right"
+        android:layout_marginRight="2dp"
+        android:layout_marginLeft="2dp">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            >
+
+            <TextView
+                android:textColor="@color/headerColor"
+                android:textSize="@dimen/header"
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text=" - باتجاه سبت  المجاورة"
+                android:id="@+id/regionsTextView"
+                android:layout_gravity="end"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:textColor="@color/subHeaderColor"
+                android:textSize="@dimen/sub_header"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="سحب رعدية"
+                android:id="@+id/statusTextView"
+                android:layout_gravity="end"
+                />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</RelativeLayout>
